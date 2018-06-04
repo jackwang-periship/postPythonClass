@@ -1,0 +1,20 @@
+(1) This Python script takes the 2015 Quarterbacks information from www.fantasypros.com (Fantasy Football Leaders).
+
+It doest the following:
+	a. Parses the page and load the information into a Pandas dataframe.
+	b. Display the page in a tabulated form.
+	c. Use the matplotlib to generate the bargraph on the data we have collected.
+	
+(0) Project dependencies:
+This project needs some external Python packages. Please run the following command 
+to install these Python packages before run the script
+
+	pip install requests
+	pip install pandas
+	pip install beautifulsoup4
+	pip install matplotlib
+	
+(2) To run this program:
+
+	python poic.py 
+

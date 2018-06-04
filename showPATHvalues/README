@@ -1,0 +1,19 @@
+(1) This program displays the values of your Windows' "PATH" environmental variable. 
+One practical use of program is show if your Windows "PATH" variable contains Python install reference.
+
+(2) The instruction of how to turn a Python script into a Windows executable are:
+
+	a. Run the following command to install the utility need to convert the Python script to a Windows executable:
+	
+		pip install pyinstaller
+		
+	b. Start the Windows Command Prompt and change to the directory where the "showPATHvalues.py" located.
+	c. To create the actual executable, enter the following command at command prompt:
+		
+		pyinstaller --onefile showPATHvalues.py
+		
+	d. Once the above command run successful, you will see a sub-directory called "dist". 
+	e. Inside "dist" folder, you will see a file called "showPATHvalues.exe". This is your Windows executable.
+	f. Please note this is a Windows only application. However you can following the same steps to generate the application for Mac or Linux.
+
+	
